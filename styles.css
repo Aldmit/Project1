@@ -1,0 +1,67 @@
+
+/* #3d6cb0 */
+
+body{
+	padding: 0; margin: 0 auto;
+	width: 100%; height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.layout_page{
+	width: 2480px; height: 3508px;
+	position: absolute;	opacity: 0.3;
+	background-image: url("./layout.jpg");
+	background-size: 100%;
+	box-shadow: inset 0 0 0 2px black;
+}
+.column_left{
+	width: 1056px;
+	margin-left: 120.69px;
+}
+.logo{
+	width: 827px; height: 1082px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: inset 0 0 0 2px black;
+}
+.icon_profile{
+	width: 827.52px;
+	height: 640px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border: 1px solid red;
+}
+.circle{
+	width: 464.24px; height: 464.24px;	
+	border: 1px solid #3d6cb0;
+	border-radius: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column_right{
+	width: 1424px;
+	display: inline-block;
+}
+
+section{
+
+}
+
+
+
+
