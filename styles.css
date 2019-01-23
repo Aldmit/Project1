@@ -1,6 +1,4 @@
-
-/* #3d6cb0 */
-
+/* #3d6cb0 black*/
 body{
 	padding: 0; margin: 0 auto;
 	width: 100%; height: auto;
@@ -8,8 +6,7 @@ body{
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 }
-
-.layout_page{
+/* .layout_page{
 	width: 2480px; height: 3508px;
 	position: absolute;	
 	opacity: 0.3;
@@ -17,15 +14,9 @@ body{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	box-shadow: inset 0 0 0 2px black;
-}
-.column_left{
-	padding: 76px 0 0 109px;
-}
-
-.column_right{
-	margin: 80px 115px 0 107px;
-	padding-top: 70px;
-}
+} */
+.column_left{	padding: 76px 0 0 109px;}
+.column_right{	margin: 80px 115px 0 107px;	padding-top: 70px;}
 
 /*========== Logotype ==========*/
 .logo{
@@ -40,7 +31,6 @@ body{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	box-shadow: 0 0 0 2px black;
 }
 .circle{
 	width: 400px; height: 400px;
@@ -57,7 +47,6 @@ body{
 .icon{
 	width: 143px; height: 143px;
 	margin-left: 13px;
-	box-shadow: 0 0 0 2px black;
 }
 .line{
 	width:60%; height: 60px;
@@ -90,7 +79,6 @@ table{
 	height: 430px; width: 886px;
 	margin: 35px 0 67px 0;
 	text-align: left;
-	box-shadow: 0 0 0 2px black;
 }
 th{	
 	padding-left: 10px;
@@ -100,7 +88,6 @@ th{
 	margin: 0; padding: 0 0 0 40px;
 	font-family: "MyriadProLight",sans-serif;
 	font-size: 2.5rem;
-	box-shadow: 0 0 0 2px black;
 	letter-spacing: 0.1rem;
 }
 
@@ -131,18 +118,10 @@ th{
 	border-radius: 100%;
 	background-color: #3d6cb0;
 }
-.cr:nth-child(n+10){
-	background-color: lightgray;
-}
-.te:nth-child(n+12){
-	background-color: lightgray;
-}
-.in:nth-child(n+7){
-	background-color: lightgray;
-}
-.co:nth-child(n+12){
-	background-color: lightgray;
-}
+.cr:nth-child(n+10){	background-color: lightgray;}
+.te:nth-child(n+12){	background-color: lightgray;}
+.in:nth-child(n+7){	background-color: lightgray;}
+.co:nth-child(n+12){	background-color: lightgray;}
 
 /*========== Education ==========*/
 .education{
@@ -182,8 +161,7 @@ th{
 	color: #3d6cb0;
 }
 .hight_text_in_educ{
-	margin: 5px 0 0 -25px; padding: 0;
-	box-shadow: 0 0 0 2px black;
+	margin: 5px 0 0 -25px; padding: 0;	  
 	font-family: "MyriadPro",sans-serif;
 	font-size: 3.1rem;
 	letter-spacing: 0.05rem;
@@ -193,8 +171,7 @@ th{
 	margin-left: 95px;
 }
 .low_block_in_educ>h4{
-	margin: 0 0 0 10px; padding: 0;
-	box-shadow: 0 0 0 2px black;
+	margin: 0 0 0 10px; padding: 0; 
 	font-family: "MyriadPro",sans-serif;
 	font-size: 3.1rem;
 	letter-spacing: 0.05rem;
@@ -243,8 +220,7 @@ th{
 	color: black;
 }
 .hight_text_in_exper{
-	margin: 5px 0 0 -25px; padding: 0;
-	box-shadow: 0 0 0 2px black;
+	margin: 5px 0 0 -25px; padding: 0;  
 	font-family: "MyriadPro",sans-serif;
 	font-size: 3.1rem;
 	letter-spacing: 0.05rem;
@@ -254,8 +230,7 @@ th{
 	margin-left: 95px;
 }
 .low_block_in_exper>h4{
-	margin: 0 0 0 10px; padding: 0;
-	box-shadow: 0 0 0 2px black;
+	margin: 0 0 0 10px; padding: 0;	  
 	font-family: "MyriadPro",sans-serif;
 	font-size: 3.1rem;
 	letter-spacing: 0.05rem;
@@ -264,7 +239,6 @@ th{
 .low_block_in_exper>p{
 	margin-top: -10px;
 }
-
 
 /*========== Software ==========*/
 .software{
@@ -278,8 +252,7 @@ th{
 
 .table_software{
 	width: 1251; height: 516px;
-	margin-left: 13px;
-	box-shadow: 0 0 0 2px black;
+	margin-left: 13px;	  
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -305,7 +278,6 @@ h1{
 	margin: 0; padding: 0;
 	font-family: "MyriadProLight",sans-serif;
 	font-size: 6.2rem;
-	box-shadow: 0 0 0 2px black;
 	letter-spacing: 0.37rem;
 	text-align: center;
 }
@@ -314,7 +286,6 @@ h1{
 	margin: -20px 0 0 0; padding: 0;
 	font-family: "MyriadProBold",sans-serif;
 	font-size: 7.5rem;
-	box-shadow: 0 0 0 2px black;
 	letter-spacing: 0.19rem;
 	text-align: center;
 }
@@ -323,7 +294,6 @@ h2{
 	margin: 27px 0 0 0; padding: 0 0 114px 0;
 	font-family: "MyriadProBold",sans-serif;
 	font-size: 3rem;
-	box-shadow: 0 0 0 2px black;
 	letter-spacing: 0rem;
 	text-align: center;
 }
@@ -331,14 +301,12 @@ h3{
 	margin: 0 0 0 0; padding: 10px 20px 0 1%;
 	font-family: "MyriadProBold",sans-serif;
 	font-size: 5.5rem;
-	box-shadow: 0 0 0 2px black;
 	letter-spacing: -0.2rem;
 	color: #3d6cb0;
 }
 h4{
 	width: 100%; height: 65px;
 	margin: 0; padding: 0;
-	box-shadow: 0 0 0 2px black;
 	font-family: "MyriadProLight",sans-serif;
 	font-size: 3.1rem;
 	letter-spacing: 0.1rem;
@@ -356,7 +324,6 @@ h5{
 	margin: 0 0 84px 0; padding: 20px 0 15px 15px;
 	font-family: "MyriadPro",sans-serif;
 	font-size: 2rem;
-	box-shadow: 0 0 0 2px black;
 	letter-spacing: -0.035rem;
 	line-height: 2.3rem;
 }
