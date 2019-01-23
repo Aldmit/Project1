@@ -22,12 +22,12 @@ body{
 	padding: 76px 0 0 109px;
 }
 
-.column_right{}
+.column_right{
+	margin: 80px 115px 0 107px;
+	padding-top: 70px;
+}
 
-
-
-/* Logotype */
-
+/*========== Logotype ==========*/
 .logo{
 	width: 886px;
 	display: flex;
@@ -40,7 +40,6 @@ body{
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	
 	box-shadow: 0 0 0 2px black;
 }
 .circle{
@@ -51,13 +50,10 @@ body{
 	border-radius: 100%;
 }
 
-/* Section Information */
-.section_information{
-	width: 886px;
-}
-.header_section{
-	display: flex;
-}
+/*========== Section Information ==========*/
+.section_information{ width: 886px;}
+.section_information_right{ width: 1264px;}
+.header_section{ display: flex;}
 .icon{
 	width: 155px; height: 143px;
 	margin-left: 13px;
@@ -68,12 +64,15 @@ body{
 	border-bottom: 13px solid #3d6cb0;
 	margin-right: 47px;
 }
+.line_right{
+	width:100%; height: 60px;
+	border-bottom: 13px solid #3d6cb0;
+}
 
-
-/* Profile */
+/*========== Profile ==========*/
 .profile{}
 
-/* Contact */
+/*========== Contact ==========*/
 .contact{}
 table{
 	height: 430px; width: 886px;
@@ -93,7 +92,7 @@ th{
 	letter-spacing: 0.1rem;
 }
 
-/* Skills */
+/*========== Skills ==========*/
 .skills{}
 .cyrcle{	
 	margin: 32px 0 0 0;
@@ -127,16 +126,69 @@ th{
 	background-color: lightgray;
 }
 
-/* Education */
+/*========== Education ==========*/
+.education{}
+.header_section + section{	margin-top: 48px;}
+.header_section ~ section{	margin-bottom: -80px;}
+.education_block{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.hight_block_in_educ{
+	width: 100%; height: 69px;
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.first_point{
+	margin: 16px 41px 0 21px;
+	width: 40px; height: 40px;
+	border-radius: 100%;
+	background-color: black;
+}
+.hight_block_in_educ>h4{
+	width: 35%;
+	margin: 0 0 0 0; padding: 0;
+	font-family: "MyriadProBold",sans-serif;
+	font-size: 3.4rem;
+	letter-spacing: -0.1rem;
+	text-align: left;
+	color: #3d6cb0;
+}
+.hight_text_in_educ{
+	margin: 5px 0 0 -25px; padding: 0;
+	box-shadow: 0 0 0 2px black;
+	font-family: "MyriadPro",sans-serif;
+	font-size: 3.1rem;
+	letter-spacing: 0.05rem;
+	text-align: left;
+}
+.low_block_in_educ{
+	margin-left: 95px;
+}
+.low_block_in_educ>h4{
+	margin: 0 0 0 10px; padding: 0;
+	box-shadow: 0 0 0 2px black;
+	font-family: "MyriadPro",sans-serif;
+	font-size: 3.1rem;
+	letter-spacing: 0.05rem;
+	text-align: left;
+}
+.low_block_in_educ>p{
+	margin-top: -10px;
+}
 
-/* Experience */
-
-/* Software */
+/*========== Experience ==========*/
 
 
 
-/* Textblocks */
+/*========== Software ==========*/
 
+
+
+/*========== Textblocks ==========*/
 h1{
 	height: 109px; width: 100%;
 	margin: 0; padding: 0;
