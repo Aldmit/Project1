@@ -1,4 +1,3 @@
-/* #3d6cb0 black*/
 @font-face {
   font-family: "MyriadPro";
   src: url('fonts/Myriad-Pro_31655.ttf') format('truetype');
@@ -10,4 +9,218 @@
 @font-face {
   font-family: "MyriadProLight";
   src: url('fonts/Myriad-Pro-Light_31642.ttf') format('truetype');
+}
+.flex {
+  display: flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.bsh {
+  box-shadow: inset 0 0 0 1px black;
+}
+.zero {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  box-shadow: inset 0 0 0 1px black;
+  justify-content: center;
+  font-family: "MyriadPro";
+  font-size: 11pt;
+  height: 1700px;
+}
+.main-box {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: inset 0 0 0 1px black;
+  justify-content: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 63px;
+}
+.left-column {
+  box-shadow: inset 0 0 0 1px black;
+  width: 345px;
+  padding: 5px 65px 0 0;
+}
+.right-column {
+  box-shadow: inset 0 0 0 1px black;
+  width: 525px;
+}
+.designer {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: inset 0 0 0 1px black;
+  width: 100%;
+  padding: 0 0 35px 11px;
+  justify-content: center;
+}
+.designer .foto-designer {
+  width: 200px;
+  height: 200px;
+}
+.circle-fill {
+  r: 96px;
+  cx: 50%;
+  cy: 50%;
+  fill: #3d6cb0;
+}
+.circle-stroke {
+  r: 88px;
+  cx: 50%;
+  cy: 50%;
+  fill: none;
+  stroke: white;
+  stroke-width: 12px;
+}
+.name-here {
+  box-shadow: inset 0 0 0 1px black;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  padding-top: 14px;
+  font-family: "MyriadPro";
+  font-size: 2.9rem;
+  letter-spacing: 0rem;
+  word-spacing: -0.2rem;
+}
+.surname {
+  box-shadow: inset 0 0 0 1px black;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  padding-top: 2px;
+  font-family: "MyriadProBold";
+  font-size: 3.2rem;
+  letter-spacing: 0rem;
+  word-spacing: -0.2rem;
+}
+h1 {
+  box-shadow: inset 0 0 0 1px black;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  padding-top: 7px;
+  font-family: "MyriadPro";
+  font-size: 1.3rem;
+  letter-spacing: 0rem;
+  word-spacing: -0.1rem;
+}
+.hight-block {
+  display: flex;
+  box-shadow: inset 0 0 0 1px black;
+  width: 100%;
+  height: 60px;
+}
+.logo-profile {
+  min-width: 59px;
+  height: 59px;
+  padding: 0 8px 0;
+}
+h2 {
+  margin: 0px;
+  padding: 0px;
+  padding: 6px 6px 0 0;
+  font-family: "MyriadProBold";
+  font-size: 2.1rem;
+  letter-spacing: 0rem;
+  word-spacing: -0.1rem;
+  color: #3d6cb0;
+}
+.line {
+  width: 100%;
+  height: 25px;
+  border-bottom: 5px solid #3d6cb0;
+}
+.profile .text-block {
+  padding: 8px 6px 30px;
+  line-height: 1rem;
+}
+.logo-contact {
+  min-width: 59px;
+  height: 59px;
+  padding: 0 8px 0;
+}
+.contact-table {
+  margin: 0px;
+  padding: 0px;
+  padding: 15px 0 27px;
+}
+.contact-table td {
+  margin: 0px;
+  padding: 0px;
+  padding: 10px 30px 10px 6px;
+  font-family: "MyriadPro";
+  font-size: 1.15rem;
+  letter-spacing: -0.03rem;
+}
+.contact-table td:first-child {
+  font-family: "MyriadProBold";
+  color: #3d6cb0;
+  letter-spacing: -0.1rem;
+}
+.logo-skills {
+  min-width: 59px;
+  height: 59px;
+  padding: 0 8px 0;
+}
+.skills {
+  text-align: center;
+}
+.skills .hight-block {
+  padding-bottom: 12px;
+}
+.skills .header-text {
+  box-shadow: inset 0 0 0 1px black;
+  width: 100%;
+  padding: 6px 0 0;
+  font-family: "MyriadPro";
+  font-size: 1.4rem;
+  letter-spacing: 0rem;
+  word-spacing: -0.1rem;
+}
+.skills__point-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-shadow: inset 0 0 0 1px black;
+  padding: 6px 0 7px;
+}
+.skills__point-box .skills__points {
+  margin: 0 4px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #3d6cb0;
+}
+#creative .skills__points:nth-child(n+10) {
+  background-color: lightgray;
+}
+#teamwork .skills__points:nth-child(n+12) {
+  background-color: lightgray;
+}
+#innovate .skills__points:nth-child(n+7) {
+  background-color: lightgray;
+}
+#communicaton .skills__points:nth-child(n+12) {
+  background-color: lightgray;
+}
+.logo-education {
+  min-width: 59px;
+  height: 59px;
+  padding: 0 8px 0;
+}
+.logo-experience {
+  min-width: 59px;
+  height: 59px;
+  padding: 0 8px 0;
+}
+.logo-software {
+  min-width: 59px;
+  height: 59px;
+  padding: 0 8px 0;
 }
