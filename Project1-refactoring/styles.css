@@ -17,7 +17,7 @@
   flex-wrap: wrap;
 }
 .bsh {
-  box-shadow: inset 0 0 0 1px black;
+  
 }
 .zero {
   margin: 0px;
@@ -27,7 +27,7 @@ body {
   margin: 0px;
   padding: 0px;
   display: flex;
-  box-shadow: inset 0 0 0 1px black;
+  
   justify-content: center;
   font-family: "MyriadPro";
   font-size: 11pt;
@@ -36,31 +36,31 @@ body {
 .main-box {
   display: flex;
   flex-wrap: wrap;
-  box-shadow: inset 0 0 0 1px black;
+  
   justify-content: center;
   max-width: 1024px;
   margin: 0 auto;
   padding-top: 63px;
 }
 .left-column {
-  box-shadow: inset 0 0 0 1px black;
-  width: 345px;
+  
+  max-width: 345px;
   padding: 5px 65px 0 0;
 }
 .right-column {
-  box-shadow: inset 0 0 0 1px black;
-  width: 525px;
+  
+  max-width: 525px;
 }
 .designer {
   display: flex;
   flex-wrap: wrap;
-  box-shadow: inset 0 0 0 1px black;
+  
   width: 100%;
   padding: 0 0 35px 11px;
   justify-content: center;
 }
 .designer .foto-designer {
-  width: 200px;
+  max-width: 200px;
   height: 200px;
 }
 .circle-fill {
@@ -78,7 +78,7 @@ body {
   stroke-width: 12px;
 }
 .name-here {
-  box-shadow: inset 0 0 0 1px black;
+  
   width: 100%;
   height: 35px;
   text-align: center;
@@ -89,7 +89,7 @@ body {
   word-spacing: -0.2rem;
 }
 .surname {
-  box-shadow: inset 0 0 0 1px black;
+  
   width: 100%;
   height: 35px;
   text-align: center;
@@ -100,7 +100,7 @@ body {
   word-spacing: -0.2rem;
 }
 h1 {
-  box-shadow: inset 0 0 0 1px black;
+  
   width: 100%;
   height: 35px;
   text-align: center;
@@ -112,7 +112,7 @@ h1 {
 }
 .hight-block {
   display: flex;
-  box-shadow: inset 0 0 0 1px black;
+  
   width: 100%;
   height: 60px;
 }
@@ -175,7 +175,7 @@ h2 {
   padding-bottom: 12px;
 }
 .skills .header-text {
-  box-shadow: inset 0 0 0 1px black;
+  
   width: 100%;
   padding: 6px 0 0;
   font-family: "MyriadPro";
@@ -187,7 +187,7 @@ h2 {
   display: flex;
   justify-content: center;
   width: 100%;
-  box-shadow: inset 0 0 0 1px black;
+  
   padding: 6px 0 7px;
 }
 .skills__point-box .skills__points {
@@ -214,13 +214,121 @@ h2 {
   height: 59px;
   padding: 0 8px 0;
 }
+.education {
+  padding-bottom: 40px;
+}
+.education .hight-block {
+  padding-bottom: 12px;
+}
+.all-educ-box {
+  display: flex;
+  
+  padding: 6px 0px 0px;
+}
+.black-point-box {
+  padding: 7px 16px 0 9px;
+}
+.black-point {
+  max-width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  background-color: black;
+}
+.all-educ-box__educ-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+  max-width: 490px;
+}
+h3 {
+  margin: 0px;
+  padding: 0px;
+  
+  padding: 0px 14px 0px 0px;
+  font-family: "MyriadProBold";
+  font-size: 1.4rem;
+  letter-spacing: -0.04rem;
+  word-spacing: -0.1rem;
+}
+.all-educ-box__educ-container_blue {
+  color: #3d6cb0;
+}
+h4 {
+  margin: 0px;
+  padding: 0px;
+  
+  padding: 0px 50px 0px 0px;
+  font-family: "MyriadProLight";
+  font-size: 1.4rem;
+  letter-spacing: -0.01rem;
+  word-spacing: 0rem;
+}
 .logo-experience {
   min-width: 59px;
   height: 59px;
   padding: 0 8px 0;
 }
+.experience {
+  padding-bottom: 40px;
+}
+.experience .hight-block {
+  padding-bottom: 27px;
+}
+.all-exp-box {
+  display: flex;
+  
+  padding: 6px 0px 0px;
+}
+.all-exp-box__exp-container {
+  display: flex;
+  flex-wrap: wrap;
+  
+  max-width: 490px;
+}
 .logo-software {
   min-width: 59px;
   height: 59px;
   padding: 0 8px 0;
+}
+.software {
+  padding-bottom: 40px;
+}
+.software .hight-block {
+  padding-bottom: 14px;
+}
+.software__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 7px;
+}
+.software__box h4 {
+  padding: 0px 0 4px;
+}
+.software__container {
+  
+  width: 45%;
+  padding: 10px 0;
+}
+.software__container .photo {
+  box-shadow: inset 210px 0 0 0 #3d6cb0;
+}
+.software__container .dream {
+  box-shadow: inset 190px 0 0 0 #3d6cb0;
+}
+.software__container .illust {
+  box-shadow: inset 160px 0 0 0 #3d6cb0;
+}
+.software__container .after {
+  box-shadow: inset 140px 0 0 0 #3d6cb0;
+}
+.software__container .indes {
+  box-shadow: inset 130px 0 0 0 #3d6cb0;
+}
+.software__container .html {
+  box-shadow: inset 210px 0 0 0 #3d6cb0;
+}
+.software__scale {
+  height: 20px;
+  background-color: lightgray;
 }
