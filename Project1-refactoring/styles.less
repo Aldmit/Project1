@@ -9,8 +9,18 @@
 
 .flex{display: flex;}
 .wrap{flex-wrap: wrap;}
-.bsh{box-shadow: inset 0 0 0 1px black;}
+.bsh{}
 .zero{margin: 0px; padding: 0px;}
+
+html, body{
+	@media (max-width : 320px) {	font-size: 40%; .text-block{font-size: 0.4em;}}
+	@media (min-width : 320px) {	font-size: 50%; .text-block{font-size: 0.5em;}}
+	@media (min-width : 480px) {	font-size: 60%; .text-block{font-size: 0.6em;}}
+	@media (min-width : 600px) {	font-size: 70%;}
+	@media (min-width : 760px) {	font-size: 80%;}
+	@media (min-width : 900px) {	font-size: 90%;}
+	@media (min-width : 1200px) {	font-size: 100%;}
+}
 
 body{
 	.zero; .flex; .bsh;	justify-content: center;
@@ -26,8 +36,8 @@ body{
 	padding-top: 63px;
 }
 
-.left-column {.bsh;	width: 345px;	padding: 5px 65px 0 0;}
-.right-column{.bsh;	width: 525px;}
+.left-column {.bsh;	width: 34.5%;	padding: 0.1rem 4.1rem 0 0;}
+.right-column{.bsh;	width: 52.5%;}
 
 // ======================
 // =======Designer=======
@@ -36,10 +46,10 @@ body{
 .designer{
 	.flex; .wrap; .bsh;
 	width: 100%;
-	padding: 0 0 35px 11px;
+	padding: 0 0 1rem 1.1rem;
 	justify-content: center;
 	.foto-designer{
-		width: 200px; height: 200px;
+		width: 13rem; height: 13rem;
 	}
 }
 .circle-fill{
@@ -53,27 +63,27 @@ body{
 	stroke-width: 12px;
 }
 .name-here{
-	.bsh;	width: 100%; height: 35px;
+	.bsh;	width: 100%; height: 2rem;
 	text-align: center;
-	padding-top: 14px;
+	padding-top: 1rem;
 	font-family: "MyriadPro";
 	font-size: 2.9rem;
 	letter-spacing: 0rem;
 	word-spacing: -0.2rem;
 }
 .surname{
-	.bsh;	width: 100%; height: 35px;
+	.bsh;	width: 100%; height: 1.5rem;
 	text-align: center;
-	padding-top: 2px;
+	padding-top: 0.2rem;
 	font-family: "MyriadProBold";
 	font-size: 3.2rem;
 	letter-spacing: 0rem;
 	word-spacing: -0.2rem;
 }
 h1{
-	.bsh;	width: 100%; height: 35px;
+	.bsh;	width: 100%; height: 3.5rem;
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 0.7rem;
 	font-family: "MyriadPro";
 	font-size: 1.3rem;
 	letter-spacing: 0rem;
@@ -84,14 +94,14 @@ h1{
 // ========Profile=======
 // ======================
 
-.hight-block{	.flex; .bsh;	width:100%; height: 60px;}
+.hight-block{	.flex; .bsh;	width:100%; height: 3.8rem;}
 .logo-profile{
-	min-width: 59px; height: 59px;
-	padding: 0 8px 0;
+	min-width: 3.5rem; height: 3.5rem;
+	padding: 0 1rem 0;
 }
 h2{
 	.zero;
-	padding: 6px 6px 0 0;
+	padding: 0.4rem 0.3rem 0 0;
 	font-family: "MyriadProBold";
 	font-size: 2.1rem;
 	letter-spacing: 0rem;
@@ -99,11 +109,11 @@ h2{
 	color: @blue;
 }
 .line{
-	width: 100%; height: 25px;
-	border-bottom:5px solid @blue;
+	width: 100%; height: 1.7rem;
+	border-bottom: 0.3rem solid @blue;
 }
 .profile .text-block{
-	padding: 8px 6px 30px;
+	padding: 0.4rem 1rem 2rem;
 	line-height: 1rem;
 }
 
@@ -117,10 +127,10 @@ h2{
 
 .contact-table{
 	.zero;
-	padding: 15px 0 27px;
+	padding: 0.6rem 0.6rem 1.7rem;
 	td{
 		.zero;
-		padding: 10px 30px 10px 6px;
+		padding: 0.6rem 1.7rem 0.7rem 0.4rem;
 		font-family: "MyriadPro";
 		font-size: 1.15rem;
 		letter-spacing: -0.03rem;
@@ -142,11 +152,11 @@ h2{
 .skills{
 	text-align: center;
 	.hight-block{
-		padding-bottom: 12px;
+		padding-bottom: 0.7rem;
 	}	
 	.header-text{
 		.bsh;	width: 100%;
-		padding: 6px 0 0;
+		padding: 0.375rem 0.8rem 0.1rem;
 		font-family: "MyriadPro";
 		font-size: 1.4rem;
 		letter-spacing: 0rem;
@@ -156,10 +166,10 @@ h2{
 .skills__point-box{
 	.flex; justify-content: center;
 	width: 100%; .bsh;
-	padding: 6px 0 7px;
+	padding: 0.375rem 0 0.4375rem;
 	.skills__points{
-		margin: 0 4px;
-		width: 15px; height: 15px;
+		margin: 0 0.25rem;
+		width: 0.9375rem; height: 0.9375rem;
 		border-radius: 100%;
 		background-color: @blue;
 	}
@@ -176,33 +186,38 @@ h2{
 
 .logo-education{
 	.logo-profile;
+	padding-left: 0.4rem;
 }
 .education{
-	padding-bottom: 40px;
+	padding-bottom: 2.6rem;
 	.hight-block{
-		padding-bottom: 12px;
+		padding-bottom: 0.75rem;
 	}
 }
 .all-educ-box{
 	.flex; .bsh;
-	padding: 6px 0px 0px;
+	padding: 0.375rem 0px 0px;
 }
 
 .black-point-box{
-	padding: 7px 16px 0 9px;
+	padding: 0.4375rem 1.3rem 0 0.5626rem;
 }
 .black-point{
-	width: 17px; height: 17px;
+	width: 1.0625rem; height: 1.0625rem;
 	border-radius: 100%;
 	background-color: black;
 }
 .all-educ-box__educ-container{
 	.flex; .wrap; .bsh;
-	width: 490px;
+	width: 30rem;
+	.text-block{
+		line-height: 1rem;
+		padding-bottom: 0.2rem;
+	}
 }
 h3{
 	.zero; .bsh;
-	padding: 0px 14px 0px 0px;
+	padding: 0px 0.875rem 0px 0px;
 	font-family: "MyriadProBold";
 	font-size: 1.4rem;
 	letter-spacing: -0.04rem;
@@ -213,13 +228,12 @@ h3{
 }
 h4{
 	.zero; .bsh;
-	padding: 0px 50px 0px 0px;
+	padding: 0px 3.125rem 0px 0px;
 	font-family: "MyriadProLight";
 	font-size: 1.4rem;
 	letter-spacing: -0.01rem;
 	word-spacing: 0rem;
 }
-
 
 // ======================
 // ======Experience======
@@ -227,21 +241,26 @@ h4{
 
 .logo-experience{
 	.logo-profile;
+	padding-left: 0.4rem;
 }
 
 .experience{
-	padding-bottom: 40px;
+	padding-bottom: 2.4rem;
 	.hight-block{
-		padding-bottom: 27px;
+		padding-bottom: 1.6875rem;
 	}
 }
 .all-exp-box{
 	.flex; .bsh;
-	padding: 6px 0px 0px;
+	padding: 0.125rem 0 0.3rem;
 }
 .all-exp-box__exp-container{
 	.flex; .wrap; .bsh;
-	width: 490px;
+	width: 30rem;
+	.text-block{
+		line-height: 1rem;
+		padding-bottom: 0.2rem;
+	}
 }
 
 // ======================
@@ -250,37 +269,37 @@ h4{
 
 .logo-software{
 	.logo-profile;
+	padding-left: 0.4rem;
 }
 
 .software{
-	padding-bottom: 40px;
+	padding-bottom: 2.5rem;
 	.hight-block{
-		padding-bottom: 14px;
+		padding-bottom: 0.475rem;
 	}
 }
 
 .software__box{
 	.flex; .wrap; justify-content: space-between;
-	padding-left: 7px;
+	padding-left: 0.4375rem;
 	h4{
-		padding: 0px 0 4px;
+		padding: 0px 0 0.25rem;
 	}
 }
 .software__container{
 	.bsh;
-	width: 45%; padding: 10px 0;
-	.photo{	box-shadow: inset 210px 0 0 0 @blue;}
-	.dream{	box-shadow: inset 190px 0 0 0 @blue;}
-	.illust{box-shadow: inset 160px 0 0 0 @blue;}
-	.after{	box-shadow: inset 140px 0 0 0 @blue;}
-	.indes{	box-shadow: inset 130px 0 0 0 @blue;}
-	.html{	box-shadow: inset 210px 0 0 0 @blue;}
+	width: 45%; padding: 0.625rem 0;
+	.photo{	box-shadow: inset 13.125rem 0 0 0 @blue;}
+	.dream{	box-shadow: inset 12rem 0 0 0 @blue;}
+	.illust{box-shadow: inset 10rem 0 0 0 @blue;}
+	.after{	box-shadow: inset 8.75rem 0 0 0 @blue;}
+	.indes{	box-shadow: inset 8.125rem 0 0 0 @blue;}
+	.html{	box-shadow: inset 13.125rem 0 0 0 @blue;}
 }
 
 .software__scale{
-	height: 20px;
+	height: 1.25rem;
 	background-color: lightgray;
-	
 }
 
 

@@ -16,18 +16,68 @@
 .wrap {
   flex-wrap: wrap;
 }
-.bsh {
-  
-}
 .zero {
   margin: 0px;
   padding: 0px;
+}
+@media (max-width: 320px) {
+  html,
+  body {
+    font-size: 40%;
+  }
+  html .text-block,
+  body .text-block {
+    font-size: 0.4em;
+  }
+}
+@media (min-width: 320px) {
+  html,
+  body {
+    font-size: 50%;
+  }
+  html .text-block,
+  body .text-block {
+    font-size: 0.5em;
+  }
+}
+@media (min-width: 480px) {
+  html,
+  body {
+    font-size: 60%;
+  }
+  html .text-block,
+  body .text-block {
+    font-size: 0.6em;
+  }
+}
+@media (min-width: 600px) {
+  html,
+  body {
+    font-size: 70%;
+  }
+}
+@media (min-width: 760px) {
+  html,
+  body {
+    font-size: 80%;
+  }
+}
+@media (min-width: 900px) {
+  html,
+  body {
+    font-size: 90%;
+  }
+}
+@media (min-width: 1200px) {
+  html,
+  body {
+    font-size: 100%;
+  }
 }
 body {
   margin: 0px;
   padding: 0px;
   display: flex;
-  
   justify-content: center;
   font-family: "MyriadPro";
   font-size: 11pt;
@@ -36,32 +86,28 @@ body {
 .main-box {
   display: flex;
   flex-wrap: wrap;
-  
   justify-content: center;
   max-width: 1024px;
   margin: 0 auto;
   padding-top: 63px;
 }
 .left-column {
-  
-  max-width: 345px;
-  padding: 5px 65px 0 0;
+  width: 34.5%;
+  padding: 0.1rem 4.1rem 0 0;
 }
 .right-column {
-  
-  max-width: 525px;
+  width: 52.5%;
 }
 .designer {
   display: flex;
   flex-wrap: wrap;
-  
   width: 100%;
-  padding: 0 0 35px 11px;
+  padding: 0 0 1rem 1.1rem;
   justify-content: center;
 }
 .designer .foto-designer {
-  max-width: 200px;
-  height: 200px;
+  width: 13rem;
+  height: 13rem;
 }
 .circle-fill {
   r: 96px;
@@ -78,33 +124,30 @@ body {
   stroke-width: 12px;
 }
 .name-here {
-  
   width: 100%;
-  height: 35px;
+  height: 2rem;
   text-align: center;
-  padding-top: 14px;
+  padding-top: 1rem;
   font-family: "MyriadPro";
   font-size: 2.9rem;
   letter-spacing: 0rem;
   word-spacing: -0.2rem;
 }
 .surname {
-  
   width: 100%;
-  height: 35px;
+  height: 1.5rem;
   text-align: center;
-  padding-top: 2px;
+  padding-top: 0.2rem;
   font-family: "MyriadProBold";
   font-size: 3.2rem;
   letter-spacing: 0rem;
   word-spacing: -0.2rem;
 }
 h1 {
-  
   width: 100%;
-  height: 35px;
+  height: 3.5rem;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 0.7rem;
   font-family: "MyriadPro";
   font-size: 1.3rem;
   letter-spacing: 0rem;
@@ -112,19 +155,18 @@ h1 {
 }
 .hight-block {
   display: flex;
-  
   width: 100%;
-  height: 60px;
+  height: 3.8rem;
 }
 .logo-profile {
-  min-width: 59px;
-  height: 59px;
-  padding: 0 8px 0;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  padding: 0 1rem 0;
 }
 h2 {
   margin: 0px;
   padding: 0px;
-  padding: 6px 6px 0 0;
+  padding: 0.4rem 0.3rem 0 0;
   font-family: "MyriadProBold";
   font-size: 2.1rem;
   letter-spacing: 0rem;
@@ -133,27 +175,27 @@ h2 {
 }
 .line {
   width: 100%;
-  height: 25px;
-  border-bottom: 5px solid #3d6cb0;
+  height: 1.7rem;
+  border-bottom: 0.3rem solid #3d6cb0;
 }
 .profile .text-block {
-  padding: 8px 6px 30px;
+  padding: 0.4rem 1rem 2rem;
   line-height: 1rem;
 }
 .logo-contact {
-  min-width: 59px;
-  height: 59px;
-  padding: 0 8px 0;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  padding: 0 1rem 0;
 }
 .contact-table {
   margin: 0px;
   padding: 0px;
-  padding: 15px 0 27px;
+  padding: 0.6rem 0.6rem 1.7rem;
 }
 .contact-table td {
   margin: 0px;
   padding: 0px;
-  padding: 10px 30px 10px 6px;
+  padding: 0.6rem 1.7rem 0.7rem 0.4rem;
   font-family: "MyriadPro";
   font-size: 1.15rem;
   letter-spacing: -0.03rem;
@@ -164,20 +206,19 @@ h2 {
   letter-spacing: -0.1rem;
 }
 .logo-skills {
-  min-width: 59px;
-  height: 59px;
-  padding: 0 8px 0;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  padding: 0 1rem 0;
 }
 .skills {
   text-align: center;
 }
 .skills .hight-block {
-  padding-bottom: 12px;
+  padding-bottom: 0.7rem;
 }
 .skills .header-text {
-  
   width: 100%;
-  padding: 6px 0 0;
+  padding: 0.375rem 0.8rem 0.1rem;
   font-family: "MyriadPro";
   font-size: 1.4rem;
   letter-spacing: 0rem;
@@ -187,13 +228,12 @@ h2 {
   display: flex;
   justify-content: center;
   width: 100%;
-  
-  padding: 6px 0 7px;
+  padding: 0.375rem 0 0.4375rem;
 }
 .skills__point-box .skills__points {
-  margin: 0 4px;
-  width: 15px;
-  height: 15px;
+  margin: 0 0.25rem;
+  width: 0.9375rem;
+  height: 0.9375rem;
   border-radius: 100%;
   background-color: #3d6cb0;
 }
@@ -210,41 +250,43 @@ h2 {
   background-color: lightgray;
 }
 .logo-education {
-  min-width: 59px;
-  height: 59px;
-  padding: 0 8px 0;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  padding: 0 1rem 0;
+  padding-left: 0.4rem;
 }
 .education {
-  padding-bottom: 40px;
+  padding-bottom: 2.6rem;
 }
 .education .hight-block {
-  padding-bottom: 12px;
+  padding-bottom: 0.75rem;
 }
 .all-educ-box {
   display: flex;
-  
-  padding: 6px 0px 0px;
+  padding: 0.375rem 0px 0px;
 }
 .black-point-box {
-  padding: 7px 16px 0 9px;
+  padding: 0.4375rem 1.3rem 0 0.5626rem;
 }
 .black-point {
-  max-width: 17px;
-  height: 17px;
+  width: 1.0625rem;
+  height: 1.0625rem;
   border-radius: 100%;
   background-color: black;
 }
 .all-educ-box__educ-container {
   display: flex;
   flex-wrap: wrap;
-  
-  max-width: 490px;
+  width: 30rem;
+}
+.all-educ-box__educ-container .text-block {
+  line-height: 1rem;
+  padding-bottom: 0.2rem;
 }
 h3 {
   margin: 0px;
   padding: 0px;
-  
-  padding: 0px 14px 0px 0px;
+  padding: 0px 0.875rem 0px 0px;
   font-family: "MyriadProBold";
   font-size: 1.4rem;
   letter-spacing: -0.04rem;
@@ -256,79 +298,81 @@ h3 {
 h4 {
   margin: 0px;
   padding: 0px;
-  
-  padding: 0px 50px 0px 0px;
+  padding: 0px 3.125rem 0px 0px;
   font-family: "MyriadProLight";
   font-size: 1.4rem;
   letter-spacing: -0.01rem;
   word-spacing: 0rem;
 }
 .logo-experience {
-  min-width: 59px;
-  height: 59px;
-  padding: 0 8px 0;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  padding: 0 1rem 0;
+  padding-left: 0.4rem;
 }
 .experience {
-  padding-bottom: 40px;
+  padding-bottom: 2.4rem;
 }
 .experience .hight-block {
-  padding-bottom: 27px;
+  padding-bottom: 1.6875rem;
 }
 .all-exp-box {
   display: flex;
-  
-  padding: 6px 0px 0px;
+  padding: 0.125rem 0 0.3rem;
 }
 .all-exp-box__exp-container {
   display: flex;
   flex-wrap: wrap;
-  
-  max-width: 490px;
+  width: 30rem;
+}
+.all-exp-box__exp-container .text-block {
+  line-height: 1rem;
+  padding-bottom: 0.2rem;
 }
 .logo-software {
-  min-width: 59px;
-  height: 59px;
-  padding: 0 8px 0;
+  min-width: 3.5rem;
+  height: 3.5rem;
+  padding: 0 1rem 0;
+  padding-left: 0.4rem;
 }
 .software {
-  padding-bottom: 40px;
+  padding-bottom: 2.5rem;
 }
 .software .hight-block {
-  padding-bottom: 14px;
+  padding-bottom: 0.475rem;
 }
 .software__box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-left: 7px;
+  padding-left: 0.4375rem;
 }
 .software__box h4 {
-  padding: 0px 0 4px;
+  padding: 0px 0 0.25rem;
 }
 .software__container {
-  
   width: 45%;
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 .software__container .photo {
-  box-shadow: inset 210px 0 0 0 #3d6cb0;
+  box-shadow: inset 13.125rem 0 0 0 #3d6cb0;
 }
 .software__container .dream {
-  box-shadow: inset 190px 0 0 0 #3d6cb0;
+  box-shadow: inset 12rem 0 0 0 #3d6cb0;
 }
 .software__container .illust {
-  box-shadow: inset 160px 0 0 0 #3d6cb0;
+  box-shadow: inset 10rem 0 0 0 #3d6cb0;
 }
 .software__container .after {
-  box-shadow: inset 140px 0 0 0 #3d6cb0;
+  box-shadow: inset 8.75rem 0 0 0 #3d6cb0;
 }
 .software__container .indes {
-  box-shadow: inset 130px 0 0 0 #3d6cb0;
+  box-shadow: inset 8.125rem 0 0 0 #3d6cb0;
 }
 .software__container .html {
-  box-shadow: inset 210px 0 0 0 #3d6cb0;
+  box-shadow: inset 13.125rem 0 0 0 #3d6cb0;
 }
 .software__scale {
-  height: 20px;
+  height: 1.25rem;
   background-color: lightgray;
 }
